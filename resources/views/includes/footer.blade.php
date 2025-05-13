@@ -4,8 +4,7 @@
             <div class="col-md">
                 <div class="ftco-footer-widget mb-4">
                     <h2 class="ftco-heading-2 logo">Studio Fryzur</h2>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                        live the blind texts.</p>
+                    <p>Piękny opis Studio Fryzur</p>
                     <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                         <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                         <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -15,11 +14,11 @@
             </div>
             <div class="col-md">
                 <div class="ftco-footer-widget mb-4 ml-md-5">
-                    <h2 class="ftco-heading-2">Information</h2>
+                    <h2 class="ftco-heading-2">Informacja</h2>
                     <ul class="list-unstyled">
                         <li><a href="#" class="py-2 d-block">FAQs</a></li>
-                        <li><a href="#" class="py-2 d-block">Privacy</a></li>
-                        <li><a href="#" class="py-2 d-block">Terms Condition</a></li>
+                        <li><a href="#" class="py-2 d-block">Prywatność</a></li>
+                        <li><a href="#" class="py-2 d-block">Warunki</a></li>
                     </ul>
                 </div>
             </div>
@@ -27,24 +26,23 @@
                 <div class="ftco-footer-widget mb-4">
                     <h2 class="ftco-heading-2">Links</h2>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="py-2 d-block">Home</a></li>
-                        <li><a href="#" class="py-2 d-block">About</a></li>
-                        <li><a href="#" class="py-2 d-block">Services</a></li>
-                        <li><a href="#" class="py-2 d-block">Work</a></li>
-                        <li><a href="#" class="py-2 d-block">Blog</a></li>
-                        <li><a href="#" class="py-2 d-block">Contact</a></li>
+                        <li><a href="#" class="py-2 d-block">Dom</a></li>
+                        <li><a href="#" class="py-2 d-block">O nas</a></li>
+                        <li><a href="#" class="py-2 d-block">Usługi</a></li>
+                        <li><a href="#" class="py-2 d-block">Praca</a></li>
+                        <li><a href="#" class="py-2 d-block">Bloga</a></li>
+                        <li><a href="#" class="py-2 d-block">Kontakty</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-md">
                 <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2">Have a Questions?</h2>
+                    <h2 class="ftco-heading-2">Masz pytania?</h2>
                     <div class="block-23 mb-3">
                         <ul>
-                            <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929
-                                        210</span></a></li>
+                            <li><a href="#"><span class="icon icon-phone"></span><span class="text">+48 606 861 661</span></a></li>
                             <li><a href="#"><span class="icon icon-envelope"></span><span
-                                        class="text">info@yourdomain.com</span></a></li>
+                                        class="text">info@mail.pl</span></a></li>
                         </ul>
                     </div>
                 </div>

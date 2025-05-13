@@ -118,7 +118,7 @@
                     <p>Piękny opis umowenia</p>
                 </div>
             </div>
-            <h3 class="vr">Zadzwoń do nas: 888 322 997</h3>
+            <h3 class="vr">Zadzwoń do nas: +48 606 861 661</h3>
             <div class="row justify-content-center">
                 <div class="col-md-10 ftco-animate">
                     <form action="#" class="appointment-form">
