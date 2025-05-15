@@ -114,7 +114,7 @@
             <div class="row justify-content-center pb-3">
                 <div class="col-md-10 heading-section text-center ftco-animate">
                     <span class="subheading">Rezerwacja</span>
-                    <h2 class="mb-4">Umawiać się</h2>
+                    <h2 class="mb-4">Umów się</h2>
                     <p>Piękny opis umowenia</p>
                 </div>
             </div>

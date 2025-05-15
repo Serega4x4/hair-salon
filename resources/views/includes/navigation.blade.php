@@ -8,11 +8,11 @@
 
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a href="{{ route('index') }}" class="nav-link">Dom</a></li>
+                    <li class="nav-item active"><a href="{{ route('index') }}" class="nav-link">Główna</a></li>
                     <li class="nav-item"><a href="services.html" class="nav-link">Usługi</a></li>
                     <li class="nav-item"><a href="gallery.html" class="nav-link">Galeria</a></li>
                     <li class="nav-item"><a href="about.html" class="nav-link">O nas</a></li>
-                    <li class="nav-item"><a href="blog.html" class="nav-link">Bloga</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
                     <li class="nav-item"><a href="contact.html" class="nav-link">Kontakty</a></li>
                 </ul>
             </div>
