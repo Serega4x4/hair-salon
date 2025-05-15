@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y \
 # Установка Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-# Установка Node.js и npm для Vite
+# Установка Node.js и npm
 RUN curl -sL https://deb.nodesource.com/setup_18.x | bash - \
     && apt-get install -y nodejs \
     && npm install -g npm
@@ -26,18 +26,22 @@ WORKDIR /var/www/html
 # Копирование проекта
 COPY . /var/www/html
 
-# Установка зависимостей Composer
+# Установка PHP-зависимостей
 RUN composer install --optimize-autoloader --no-dev
 
-# Установка зависимостей npm и сборка фронтенда
+# Сборка фронтенда
 RUN npm install && npm run build
 
-# Права на файлы
+# Права
 RUN chown -R www-data:www-data /var/www/html \
     && chmod -R 755 /var/www/html/storage
 
 # Копирование конфигурации Nginx
 COPY ./nginx/default.conf /etc/nginx/conf.d/default.conf
 
-# Запуск PHP-FPM и Nginx
-CMD ["sh", "-c", "php-fpm -D && nginx -g 'daemon off;'"]
+# Копирование entrypoint
+COPY ./entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+# Запуск через entrypoint
+ENTRYPOINT ["/entrypoint.sh"]
