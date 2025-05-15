@@ -1,19 +1,18 @@
 #!/bin/bash
 
-# Ждем базу данных (если нужно — добавим wait-for-it позже)
+# Ожидание БД 60 секунд
 echo "Ожидание MySQL..."
-sleep 10
+sleep 60
 
-# Очистка и пересоздание кеша Laravel
+# Laravel кеш
 echo "Очистка и кеширование конфигурации Laravel..."
 php artisan config:clear
 php artisan cache:clear
 php artisan config:cache
 
-# Установка прав (если нужно)
+# Права
 chown -R www-data:www-data /var/www/html
 chmod -R 755 /var/www/html/storage
 
-# Запуск PHP-FPM и Nginx
-php-fpm -D
-nginx -g "daemon off;"
+# Запуск PHP-FPM
+exec php-fpm

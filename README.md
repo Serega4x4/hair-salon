@@ -1,7 +1,5 @@
 ```
-docker exec -it laravel_app bash
-php artisan config:clear
-php artisan cache:clear
-php artisan config:cache
+docker exec -it laravel_app php artisan migrate
+
 ```  
 # hair-salon
