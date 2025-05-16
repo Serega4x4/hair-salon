@@ -176,14 +176,14 @@
         </div>
     </section>
 
-
+    {{-- Specjaliści --}}
     <section class="ftco-section ftco-team">
         <div class="container-fluid px-md-5">
             <div class="row justify-content-center pb-3">
                 <div class="col-md-10 heading-section text-center ftco-animate">
-                    <span class="subheading">Artistic Director</span>
-                    <h2 class="mb-4">Makeup Artist</h2>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                    <span class="subheading">Specjaliści</span>
+                    <h2 class="mb-4">Fryzjerzy</h2>
+                    <p>Piękny opis specjalistów</p>
                 </div>
             </div>
             <div class="row">
@@ -193,28 +193,28 @@
                             <a href="#" class="team text-center">
                                 <div class="img" style="background-image: url(images/stylist-1.jpg);"></div>
                                 <h2>Danica Lewis</h2>
-                                <span class="position">Hair Stylist</span>
+                                <span class="position">Fryzjerka</span>
                             </a>
                         </div>
                         <div class="item">
                             <a href="#" class="team text-center">
                                 <div class="img" style="background-image: url(images/stylist-2.jpg);"></div>
                                 <h2>Nicole Simon</h2>
-                                <span class="position">Nail Master</span>
+                                <span class="position">Fryzjerka</span>
                             </a>
                         </div>
                         <div class="item">
                             <a href="#" class="team text-center">
                                 <div class="img" style="background-image: url(images/stylist-3.jpg);"></div>
-                                <h2>Cloe Meyer</h2>
-                                <span class="position">Director</span>
+                                <h2>Anita Kawacz</h2>
+                                <span class="position">Directorka</span>
                             </a>
                         </div>
                         <div class="item">
                             <a href="#" class="team text-center">
                                 <div class="img" style="background-image: url(images/stylist-4.jpg);"></div>
                                 <h2>Rachel Clinton</h2>
-                                <span class="position">Hair Stylist</span>
+                                <span class="position">Fryzjerka</span>
                             </a>
                         </div>
                         <div class="item">
@@ -230,14 +230,14 @@
         </div>
     </section>
 
+    {{-- Galeria --}}
     <section class="ftco-section ftco-no-pt ftco-no-pb">
         <div class="container">
             <div class="row no-gutters justify-content-center mb-5 pb-2">
                 <div class="col-md-6 text-center heading-section ftco-animate">
-                    <span class="subheading">Gallery</span>
-                    <h2 class="mb-4">Our gallery</h2>
-                    <p>Separated they live in. A small river named Duden flows by their place and supplies it with the
-                        necessary regelialia.</p>
+                    <span class="subheading">Galeria</span>
+                    <h2 class="mb-4">Nasze prace</h2>
+                    <p>Piękny opis galerii</p>
                 </div>
             </div>
         </div>
@@ -247,8 +247,8 @@
                     <div class="project">
                         <img src="images/work-1.jpg" class="img-fluid" alt="Colorlib Template">
                         <div class="text">
-                            <span>Stylist</span>
-                            <h3><a href="project.html">Beard</a></h3>
+                            <span>Stylista</span>
+                            <h3><a href="project.html">Broda</a></h3>
                         </div>
                         <a href="images/work-1.jpg"
                             class="icon image-popup d-flex justify-content-center align-items-center">
@@ -260,8 +260,8 @@
                     <div class="project">
                         <img src="images/work-2.jpg" class="img-fluid" alt="Colorlib Template">
                         <div class="text">
-                            <span>Beauty</span>
-                            <h3><a href="project.html">Haircut</a></h3>
+                            <span>Uroda</span>
+                            <h3><a href="project.html">Strzyżenie włosów</a></h3>
                         </div>
                         <a href="images/work-2.jpg"
                             class="icon image-popup d-flex justify-content-center align-items-center">
@@ -273,7 +273,7 @@
                     <div class="project">
                         <img src="images/work-3.jpg" class="img-fluid" alt="Colorlib Template">
                         <div class="text">
-                            <span>Beauty</span>
+                            <span>Uroda</span>
                             <h3><a href="project.html">Hairstylist</a></h3>
                         </div>
                         <a href="images/work-3.jpg"
@@ -286,8 +286,8 @@
                     <div class="project">
                         <img src="images/work-4.jpg" class="img-fluid" alt="Colorlib Template">
                         <div class="text">
-                            <span>Beauty</span>
-                            <h3><a href="project.html">Haircut</a></h3>
+                            <span>Uroda</span>
+                            <h3><a href="project.html">Strzyżenie włosów</a></h3>
                         </div>
                         <a href="images/work-4.jpg"
                             class="icon image-popup d-flex justify-content-center align-items-center">
@@ -299,7 +299,7 @@
                     <div class="project">
                         <img src="images/work-5.jpg" class="img-fluid" alt="Colorlib Template">
                         <div class="text">
-                            <span>Beauty</span>
+                            <span>Uroda</span>
                             <h3><a href="project.html">Makeup</a></h3>
                         </div>
                         <a href="images/work-5.jpg"
@@ -312,8 +312,8 @@
                     <div class="project">
                         <img src="images/work-6.jpg" class="img-fluid" alt="Colorlib Template">
                         <div class="text">
-                            <span>Fashion</span>
-                            <h3><a href="project.html">Model</a></h3>
+                            <span>Styl</span>
+                            <h3><a href="project.html">Modelka</a></h3>
                         </div>
                         <a href="images/work-6.jpg"
                             class="icon image-popup d-flex justify-content-center align-items-center">
@@ -325,7 +325,7 @@
                     <div class="project">
                         <img src="images/work-7.jpg" class="img-fluid" alt="Colorlib Template">
                         <div class="text">
-                            <span>Beauty</span>
+                            <span>Uroda</span>
                             <h3><a href="project.html">Makeup</a></h3>
                         </div>
                         <a href="images/work-7.jpg"
@@ -338,7 +338,7 @@
                     <div class="project">
                         <img src="images/work-8.jpg" class="img-fluid" alt="Colorlib Template">
                         <div class="text">
-                            <span>Beauty</span>
+                            <span>Uroda</span>
                             <h3><a href="project.html">Makeup</a></h3>
                         </div>
                         <a href="images/work-8.jpg"
@@ -351,13 +351,14 @@
         </div>
     </section>
 
+    {{-- Ceny --}}
     <section class="ftco-section ftco-pricing">
         <div class="container">
             <div class="row justify-content-center pb-3">
                 <div class="col-md-10 heading-section text-center ftco-animate">
-                    <span class="subheading">Pricing</span>
-                    <h2 class="mb-4">Our Prices</h2>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                    <span class="subheading">Ceny</span>
+                    <h2 class="mb-4">Naszy ceny</h2>
+                    <p>piękny opis ceny</p>
                 </div>
             </div>
             <div class="row">
@@ -433,6 +434,7 @@
         </div>
     </section>
 
+    {{-- Recenzje --}}
     <section class="testimony-section bg-light">
         <div class="container">
             <div class="row ftco-animate justify-content-center">
@@ -442,15 +444,14 @@
                 <div class="col-md-6 col-lg-7 py-5 pl-md-5">
                     <div class="py-md-5">
                         <div class="heading-section ftco-animate">
-                            <span class="subheading">Testimony</span>
-                            <h2 class="mb-0">Happy Customer</h2>
+                            <span class="subheading">Recenzje</span>
+                            <h2 class="mb-0">Recenzje klientów</h2>
                         </div>
                         <div class="carousel-testimony owl-carousel ftco-animate">
                             <div class="item">
                                 <div class="testimony-wrap pb-4">
                                     <div class="text">
-                                        <p class="mb-4">Far far away, behind the word mountains, far from the countries
-                                            Vokalia and Consonantia, there live the blind texts.</p>
+                                        <p class="mb-4">Piękny opis opinii klientów</p>
                                     </div>
                                     <div class="d-flex">
                                         <div class="user-img" style="background-image: url(images/stylist-1.jpg)">
@@ -465,8 +466,7 @@
                             <div class="item">
                                 <div class="testimony-wrap pb-4">
                                     <div class="text">
-                                        <p class="mb-4">Far far away, behind the word mountains, far from the countries
-                                            Vokalia and Consonantia, there live the blind texts.</p>
+                                        <p class="mb-4">Piękny opis opinii klientów</p>
                                     </div>
                                     <div class="d-flex">
                                         <div class="user-img" style="background-image: url(images/stylist-2.jpg)">
@@ -481,8 +481,7 @@
                             <div class="item">
                                 <div class="testimony-wrap pb-4">
                                     <div class="text">
-                                        <p class="mb-4">Far far away, behind the word mountains, far from the countries
-                                            Vokalia and Consonantia, there live the blind texts.</p>
+                                        <p class="mb-4">Piękny opis opinii klientów</p>
                                     </div>
                                     <div class="d-flex">
                                         <div class="user-img" style="background-image: url(images/stylist-3.jpg)">
@@ -497,8 +496,7 @@
                             <div class="item">
                                 <div class="testimony-wrap pb-4">
                                     <div class="text">
-                                        <p class="mb-4">Far far away, behind the word mountains, far from the countries
-                                            Vokalia and Consonantia, there live the blind texts.</p>
+                                        <p class="mb-4">Piękny opis opinii klientów</p>
                                     </div>
                                     <div class="d-flex">
                                         <div class="user-img" style="background-image: url(images/stylist-4.jpg)">
@@ -513,8 +511,7 @@
                             <div class="item">
                                 <div class="testimony-wrap pb-4">
                                     <div class="text">
-                                        <p class="mb-4">Far far away, behind the word mountains, far from the countries
-                                            Vokalia and Consonantia, there live the blind texts.</p>
+                                        <p class="mb-4">Piękny opis opinii klientów</p>
                                     </div>
                                     <div class="d-flex">
                                         <div class="user-img" style="background-image: url(images/stylist-5.jpg)">
