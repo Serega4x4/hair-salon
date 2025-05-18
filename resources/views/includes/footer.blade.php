@@ -27,7 +27,7 @@
                 <div class="ftco-footer-widget mb-4">
                     <h2 class="ftco-heading-2">Links</h2>
                     <ul class="list-unstyled">
-                        <li><a href="{{ route('index') }}" class="py-2 d-block">Główna</a></li>
+                        <li><a href="{{ route('main.index') }}" class="py-2 d-block">Główna</a></li>
                         <li><a href="#" class="py-2 d-block">O nas</a></li>
                         <li><a href="#" class="py-2 d-block">Usługi</a></li>
                         <li><a href="#" class="py-2 d-block">Praca</a></li>

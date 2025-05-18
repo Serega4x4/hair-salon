@@ -1,7 +1,5 @@
 @extends('layouts.main')
 @section('content')
-<body>
-
     <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg-1.jpg');"
         data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
@@ -9,7 +7,7 @@
             <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
                 <div class="col-md-9 ftco-animate pb-5 text-center">
                     <h2 class="mb-0 bread">Gallery</h2>
-                    <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i
+                    <p class="breadcrumbs"><span class="mr-2"><a href="{{ route('main.gallery') }}">Home <i
                                     class="ion-ios-arrow-round-forward"></i></a></span> <span>Gallery <i
                                 class="ion-ios-arrow-round-forward"></i></span></p>
                 </div>
@@ -127,7 +125,4 @@
             </div>
         </div>
     </section>
-
-</body>
-
-</html>
+@endsection('content')
