@@ -23,12 +23,11 @@
                 <li class="nav-item {{ Route::currentRouteName() == 'main.about' ? 'active' : '' }}">
                     <a href="{{ route('main.about') }}" class="nav-link">O nas</a>
                 </li>
-                {{-- Пример для статичных страниц, если они не на Laravel маршрутах --}}
                 <li class="nav-item {{ Route::currentRouteName() == 'main.blog' ? 'active' : '' }}">
                     <a href="{{ route('main.blog') }}" class="nav-link">Blog</a>
                 </li>
                 <li class="nav-item {{ Route::currentRouteName() == 'main.contact' ? 'active' : '' }}">
-                    <a href="/contact" class="nav-link">Kontakty</a>
+                    <a href="{{ route('main.contact') }}" class="nav-link">Kontakty</a>
                 </li>
             </ul>
 
