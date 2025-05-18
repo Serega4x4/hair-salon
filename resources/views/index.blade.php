@@ -351,6 +351,7 @@
         </div>
     </section>
 
+
     {{-- Ceny --}}
     <section class="ftco-section ftco-pricing">
         <div class="container">
@@ -529,7 +530,5 @@
             </div>
         </div>
     </section>
-
-    @include('includes.footer')
 
 @endsection('content')
