@@ -51,5 +51,5 @@
     @include('includes.gender_chose')
 
     @include('includes.review')
-    
+
 @endsection('content')
