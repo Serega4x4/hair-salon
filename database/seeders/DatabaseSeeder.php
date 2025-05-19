@@ -2,20 +2,19 @@
 
 namespace Database\Seeders;
 
-use App\Models\User;
-// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Spatie\Permission\Models\Role;
 
 class DatabaseSeeder extends Seeder
 {
-
     public function run(): void
     {
-        // User::factory(10)->create();
+        $roles = ['superuser', 'superadmin', 'master', 'client'];
 
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-        ]);
+        foreach ($roles as $role) {
+            if (!Role::where('name', $role)->exists()) {
+                Role::create(['name' => $role]);
+            }
+        }
     }
 }
