@@ -15,11 +15,13 @@ return new class extends Migration {
             $table->text('comment')->nullable();
             $table->date('appointment_date');
             $table->time('appointment_time');
+            
+            $table->timestamps();
+            $table->softDeletes();
+
             $table->foreignId('service_id')->constrained()->onDelete('cascade');
             $table->foreignId('master_id')->constrained('users')->onDelete('cascade');
             $table->foreignId('deleted_by')->nullable()->constrained('users')->nullOnDelete();
-            $table->timestamps();
-            $table->softDeletes();
         });
     }
 

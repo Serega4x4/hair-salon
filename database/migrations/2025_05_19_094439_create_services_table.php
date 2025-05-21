@@ -13,6 +13,7 @@ return new class extends Migration {
             $table->enum('gender_type', ['male', 'female']);
             $table->decimal('price', 8, 2);
             $table->integer('duration'); // в минутах
+            
             $table->foreignId('created_by')->constrained('users')->onDelete('cascade');
             $table->timestamps();
         });
