@@ -5,10 +5,12 @@
             <div class="col-md">
                 <div class="ftco-footer-widget mb-4">
                     <h2 class="ftco-heading-2 logo">Studio Fryzur</h2>
-                    <p>Piękny opis Studio Fryzur</p>
+                    <p>Jasnogórska 46 (naprzeciwko wejścia do Teatru), Czestochowa, Poland
+                    </p>
                     <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                         <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                        <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                        <li class="ftco-animate"><a href="https://www.facebook.com/StudioFryzurAnitaKawacz"><span
+                                    class="icon-facebook"></span></a></li>
                         <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
                     </ul>
                 </div>
@@ -28,11 +30,10 @@
                     <h2 class="ftco-heading-2">Links</h2>
                     <ul class="list-unstyled">
                         <li><a href="{{ route('main.index') }}" class="py-2 d-block">Główna</a></li>
-                        <li><a href="#" class="py-2 d-block">O nas</a></li>
-                        <li><a href="#" class="py-2 d-block">Usługi</a></li>
-                        <li><a href="#" class="py-2 d-block">Praca</a></li>
-                        <li><a href="#" class="py-2 d-block">Bloga</a></li>
-                        <li><a href="#" class="py-2 d-block">Kontakty</a></li>
+                        <li><a href="{{ route('main.about')}}" class="py-2 d-block">O nas</a></li>
+                        <li><a href="{{ route('main.services')}}" class="py-2 d-block">Usługi</a></li>
+                        <li><a href="{{ route('main.blog')}}" class="py-2 d-block">Blog</a></li>
+                        <li><a href="{{ route('main.contact')}}" class="py-2 d-block">Kontakty</a></li>
                     </ul>
                 </div>
             </div>
@@ -41,7 +42,8 @@
                     <h2 class="ftco-heading-2">Masz pytania?</h2>
                     <div class="block-23 mb-3">
                         <ul>
-                            <li><a href="#"><span class="icon icon-phone"></span><span class="text">+48 606 861 661</span></a></li>
+                            <li><a href="#"><span class="icon icon-phone"></span><span class="text">+48 606 861
+                                        661</span></a></li>
                             <li><a href="#"><span class="icon icon-envelope"></span><span
                                         class="text">info@mail.pl</span></a></li>
                         </ul>
