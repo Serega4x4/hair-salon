@@ -11,20 +11,6 @@ use App\Http\Controllers\IndexController;
 use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\ShowBlogController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
-
-Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-});
-
 Route::get('/', IndexController::class)->name('main.index');
 Route::get('/services', ServicesController::class)->name('main.services');
 Route::get('/gallery', GalleryController::class)->name('main.gallery');
@@ -33,8 +19,22 @@ Route::get('/blog', BlogController::class)->name('main.blog');
 Route::get('/show_blog', ShowBlogController::class)->name('main.show_blog');
 Route::get('/contact', ContactController::class)->name('main.contact');
 
-Route::middleware('role:superuser')->prefix('admin')->group(function(){
-    Route::get('/', AdminIndexController::class)->name('admin.inedx');
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})
+    ->middleware(['auth', 'verified'])
+    ->name('dashboard');
+
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+Route::middleware('role:superuser')
+    ->prefix('admin')
+    ->group(function () {
+        Route::get('/', AdminIndexController::class)->name('admin.index');
+    });
+
+require __DIR__ . '/auth.php';

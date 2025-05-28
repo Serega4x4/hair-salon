@@ -1,5 +1,5 @@
 {{-- index --}}
-@extends('layouts.main')
+@extends('admin.layouts.main')
 @section('content')
     {{-- Chodnikowiec --}}
     <section class="hero-wrap js-fullheight" style="background-image: url('{{ asset('images/bg-2.jpg') }}');"
@@ -19,17 +19,11 @@
         </div>
     </section>
 
-    {{-- wstęp --}}
-    @include('includes.gender_chose')
-
-    {{-- Menu usług --}}
-    @include('includes.service_menu')
-
     {{-- Rezerwacja --}}
-    @include('includes.booking')
+    @include('admin.includes.booking')
 
     {{-- Specjaliści --}}
-    @include('includes.master')
+    @include('admin.includes.master')
 
     {{-- Galeria --}}
     <section class="ftco-section ftco-no-pt ftco-no-pb">
@@ -42,14 +36,14 @@
                 </div>
             </div>
         </div>
-        @include('includes.gallery')
+        @include('admin.includes.gallery')
     </section>
 
 
     {{-- Ceny --}}
-    @include('includes.price')
+    @include('admin.includes.price')
 
     {{-- Recenzje --}}
-    @include('includes.review')
+    @include('admin.includes.review')
     
 @endsection('content')
