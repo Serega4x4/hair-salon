@@ -10,14 +10,17 @@
         <div class="row">
             <div class="col-md-12 ftco-animate">
                 <div class="carousel-team owl-carousel">
-                    <div class="item">
+                    @foreach ($users as $user)
+                        <div class="item">
                         <a href="#" class="team text-center">
                             <div class="img" style="background-image: url('{{ asset('images/stylist-1.jpg') }}');">
                             </div>
-                            <h2>Danica Lewis</h2>
+                            <h2>{{ $user->name }}</h2>
                             <span class="position">Fryzjerka</span>
                         </a>
                     </div>
+                    @endforeach
+                    
                     {{-- <div class="item">
                             <a href="#" class="team text-center">
                                 <div class="img" style="background-image: url('{{ asset('images/stylist-2.jpg') }}');"></div>

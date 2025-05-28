@@ -1,0 +1,27 @@
+# Laravel-specific
+node_modules
+vendor
+.env
+.env.*
+storage/*.key
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Git
+.git
+.gitignore
+
+# OS / Editor
+.idea
+.vscode
+*.log
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# Nginx / SSL (если не нужно в образ)
+nginx/ssl

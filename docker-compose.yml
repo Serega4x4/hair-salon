@@ -8,6 +8,7 @@ services:
     container_name: laravel_app
     volumes:
       - .:/var/www/html
+      - composer_cache:/root/.composer
     environment:
       - APP_ENV=local
       - APP_DEBUG=true
@@ -48,6 +49,7 @@ services:
 
 volumes:
   db_data:
+  composer_cache:
 
 networks:
   laravel_network:

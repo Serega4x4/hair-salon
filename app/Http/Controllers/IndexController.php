@@ -2,10 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
+use Illuminate\View\View;
+
 class IndexController extends Controller
 {
-    public function __invoke()
+    public function __invoke(): View
     {
-        return view('index');
+        $users = User::all();
+
+        return view('index', ['users' => $users]);
     }
 }
