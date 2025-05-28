@@ -11,7 +11,7 @@ class SuperuserSeeder extends Seeder
 {
     public function run(): void
     {
-        $user = User::create([
+        $user = User::firstOrCreate([
             'name' => 'Super',
             "surname" => 'User',
             'email' => 'serega1988bykov@gmail.com',

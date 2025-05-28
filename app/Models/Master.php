@@ -5,13 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Spatie\Permission\Traits\HasRoles;
 
 class Master extends Model
 {
-    use HasFactory, SoftDeletes, HasRoles;
+    use HasFactory, SoftDeletes;
 
-    protected $fillable = [];
+    protected $fillable = ['user_id', 'name', 'surname', 'email', 'phone', 'photo'];
 
      public function appointments()
     {

@@ -23,4 +23,14 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    public function administrator()
+    {
+        return $this->hasOne(Administrator::class);
+    }
+
+    public function master()
+    {
+        return $this->hasOne(Master::class);
+    }
 }
